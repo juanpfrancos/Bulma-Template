@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Virtual Freedom Elite</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css'>
-
+  <link rel="stylesheet" href="styleswiper.css">
 </head>
 <body>
 <!--Menu-->
@@ -26,10 +27,10 @@
         Start
       </a>
 				<a class="navbar-item" href="https://bulma.io/">
-        Get feedback
+        About Us
 	  </a>
 	  <a class="navbar-item" href="https://bulma.io/">
-        Get feedback
+        Get Involve
       </a>	  
 			<div class="navbar-item has-dropdown is-hoverable">
 				<a class="navbar-link" href="/documentation/overview/start/">
@@ -57,14 +58,8 @@
 	</div>
 </nav>
 <!--Menu-->
-<section class="section has-background-primary ">Hola</section>
 <section class="section has-background-grey is-paddingless">
 	<div class="card">
-		<div class="card-image">
-		  <figure class="image is-rounded">
-			<img class="image is-rounded" src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-		  </figure>
-		</div>
 		<div class="card-content">
 		  <div class="media">
 			<div class="media-left">
@@ -88,7 +83,26 @@
 		</div>
 	  </div>
 </section>
-<section class="section has-background-primary is-paddingless">
+<section class="section has-background-grey-lighter is-paddingless">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+		  <div class="swiper-slide">
+			<img src="https://placeimg.com/1000/600/tech" alt="">
+		  </div>
+		  <div class="swiper-slide">
+			<img src="https://placeimg.com/1000/600/people" alt="">
+		  </div>
+		  <div class="swiper-slide">
+			<img src="https://placeimg.com/1000/600/people" alt="">
+		  </div>
+		  <div class="swiper-slide">
+			  <img src="https://placeimg.com/1000/600/any/grayscale" alt="">
+		  </div>
+		</div>
+		<!-- Add Arrows -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+	  </div>
 </section>
 <section class="section has-background-primary is-paddingless">
 </section>
@@ -124,7 +138,7 @@
 		</div>
 	</div>
 </section>
-<footer class="footer has-background-grey">
+<footer class="footer has-background-grey is-paddingless">
 	<div class="content has-text-centered">
 	  <p>
 		<strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
@@ -133,6 +147,7 @@
 	  </p>
 	</div>
 </footer>
-<script  src="./script.js"></script>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script  src="script.js"></script>
 </body>
 </html>
